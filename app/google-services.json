@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "597917236048",
+    "firebase_url": "https://myapplication3-bd4f7.firebaseio.com",
+    "project_id": "myapplication3-bd4f7",
+    "storage_bucket": "myapplication3-bd4f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597917236048:android:e97b3e7db07fc5b0",
+        "android_client_info": {
+          "package_name": "com.example.ahsan.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597917236048-gscn606f09f003mkermks3pija5v8f0r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahsan.myapplication",
+            "certificate_hash": "9f23d1d58c13cfa622c2e83db3660a5209b2fb71"
+          }
+        },
+        {
+          "client_id": "597917236048-1fv7ob7s5vhcs5bthfse8trrnm81fmo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2GKZnHdV-kSzNzPzgYa9JqLNqy9vVDaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597917236048-1fv7ob7s5vhcs5bthfse8trrnm81fmo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597917236048:android:e70d43438b5415bb",
+        "android_client_info": {
+          "package_name": "com.example.ahsan.firebaserealtimedatabase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597917236048-fnj2gsputr4nlvksld1qfd58ho2np2h4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ahsan.firebaserealtimedatabase",
+            "certificate_hash": "9f23d1d58c13cfa622c2e83db3660a5209b2fb71"
+          }
+        },
+        {
+          "client_id": "597917236048-1fv7ob7s5vhcs5bthfse8trrnm81fmo9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2GKZnHdV-kSzNzPzgYa9JqLNqy9vVDaM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597917236048-1fv7ob7s5vhcs5bthfse8trrnm81fmo9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
