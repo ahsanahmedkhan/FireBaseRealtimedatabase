@@ -24,7 +24,6 @@ public class ArtistList extends ArrayAdapter<Artist> {
         this.context = context;
         this.artistList = artistList;
     }
-
     @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {

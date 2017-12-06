@@ -1,6 +1,5 @@
 package com.example.ahsan.firebaserealtimedatabase;
 
-
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,7 +17,6 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -27,14 +25,11 @@ public class MainActivity extends AppCompatActivity {
     public static final String Artist_Name = "artistname";
     public static final String Artist_Id = "artistid";
 
-
     EditText editTextName;
     Button buttonAdd;
     Spinner spinnerGenres;
     ListView listViewArtists;
-
     DatabaseReference databaseArtists;
-
     List<Artist> artistList;
 
     @Override
@@ -64,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(getApplicationContext(), AddTrackActivity.class);
                 intent.putExtra(Artist_Id, artist.getArtistId());
                 intent.putExtra(Artist_Name, artist.getArtistName());
-
                 startActivity(intent);
             }
         });
@@ -88,7 +82,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
             }
         });
     }
@@ -107,7 +100,6 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(this, "Artist Added", Toast.LENGTH_LONG).show();
 
         }else {
-
             Toast.makeText(this, "You Should Enter a Name ", Toast.LENGTH_LONG).show();
         }
     }
